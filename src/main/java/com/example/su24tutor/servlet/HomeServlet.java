@@ -47,6 +47,7 @@ public class HomeServlet extends HttpServlet {
 
     public void X(){
         System.out.println("abc");
+        System.out.println("Hello");
     }
 
     public void add(){
@@ -56,6 +57,9 @@ public class HomeServlet extends HttpServlet {
 
     public String name() {
         return "Nguyễn Ngọc Mạnh";
+    }
+    public String name2() {
+        return "Duong Trung Anh";
     }
 
 }
