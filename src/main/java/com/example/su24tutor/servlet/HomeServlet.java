@@ -32,11 +32,16 @@ public class HomeServlet extends HttpServlet {
 
     }
 
+
+    void update(){
+        // ham update
+    }
     public void hello(){
         System.out.println("hello");
     }
 
     public void add(){
         //llllll
+
     }
 }
