@@ -41,7 +41,13 @@ public class HomeServlet extends HttpServlet {
     }
 
     public void newabc(){
-        System.out.println("Vu Van Nguyen)");
+
+        System.out.println("XYZ");
+    }
+
+    public void X(){
+        System.out.println("abc");
+        System.out.println("Hello");
     }
 
     public void add(){
@@ -49,10 +55,18 @@ public class HomeServlet extends HttpServlet {
 
     }
 
+
     public String name() {
         return "Nguyễn Ngọc Mạnh";
     }
-    public String fullName() {return "Nguyễn Thị Thu Chúc";
-    }
+
+    public String fullName() {return "Nguyễn Thị Thu Chúc";}
+
+    public String name2() {
+
+            System.out.println("Manh");
+            return "Duong Trung Anh";
+
+        }
 
 }
