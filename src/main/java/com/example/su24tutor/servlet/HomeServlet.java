@@ -31,4 +31,8 @@ public class HomeServlet extends HttpServlet {
         }
 
     }
+
+    public void hello(){
+        System.out.println("hello");
+    }
 }
