@@ -31,4 +31,8 @@ public class HomeServlet extends HttpServlet {
         }
 
     }
+
+    void update(){
+        // ham update
+    }
 }
