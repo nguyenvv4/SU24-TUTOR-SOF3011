@@ -44,4 +44,8 @@ public class HomeServlet extends HttpServlet {
         //llllll
 
     }
+
+    public String name() {
+        return "Nguyễn Ngọc Mạnh";
+    }
 }
