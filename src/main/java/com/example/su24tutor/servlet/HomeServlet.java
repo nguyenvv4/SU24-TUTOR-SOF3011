@@ -60,6 +60,7 @@ public class HomeServlet extends HttpServlet {
         return "Nguyễn Ngọc Mạnh";
     }
     public String name2() {
+        System.out.println("Manh");
         return "Duong Trung Anh";
     }
 
