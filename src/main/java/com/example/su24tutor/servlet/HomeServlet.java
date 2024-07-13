@@ -32,14 +32,25 @@ public class HomeServlet extends HttpServlet {
 
     }
 
+
+    void update(){
+        // ham update
+    }
     public void hello(){
         System.out.println("hello");
     }
 
-
-
     public void newabc(){
         System.out.println("Vu Van Nguyen)");
+    }
+
+    public void add(){
+        //llllll
+
+    }
+
+    public String name() {
+        return "Nguyễn Ngọc Mạnh";
     }
 
 }
