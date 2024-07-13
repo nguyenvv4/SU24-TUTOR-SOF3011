@@ -35,4 +35,11 @@ public class HomeServlet extends HttpServlet {
     public void hello(){
         System.out.println("hello");
     }
+
+
+
+    public void newabc(){
+        System.out.println("Vu Van Nguyen)");
+    }
+
 }
