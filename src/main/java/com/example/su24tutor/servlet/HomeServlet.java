@@ -52,5 +52,7 @@ public class HomeServlet extends HttpServlet {
     public String name() {
         return "Nguyễn Ngọc Mạnh";
     }
+    public String fullName() {return "Nguyễn Thị Thu Chúc";
+    }
 
 }
