@@ -41,7 +41,8 @@ public class HomeServlet extends HttpServlet {
     }
 
     public void newabc(){
-        System.out.println("Vu Van Nguyen)");
+
+        System.out.println("Hello");
     }
 
     public void add(){
