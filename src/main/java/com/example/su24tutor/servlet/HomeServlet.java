@@ -40,10 +40,27 @@ public class HomeServlet extends HttpServlet {
         System.out.println("hello");
     }
 
+    public void newabc(){
+
+        System.out.println("XYZ");
+    }
+
+    public void X(){
+        System.out.println("abc");
+        System.out.println("Hello");
+    }
+
     public void add(){
         //llllll
 
     }
 
+
+    public String name() {
+        return "Nguyễn Ngọc Mạnh";
+    }
+    public String name2() {
+        return "Duong Trung Anh";
+    }
 
 }
